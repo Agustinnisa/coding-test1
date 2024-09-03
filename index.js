@@ -1,1 +1,1 @@
-array
+function linierSearch (arr,)
