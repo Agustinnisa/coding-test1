@@ -12,3 +12,4 @@ function linierSearch (arr, target) {
 }
 
 console.log(linearSearch([8, 3, 9, 2, 5], 3));
+console.log ()
