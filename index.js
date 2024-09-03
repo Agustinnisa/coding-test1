@@ -3,5 +3,12 @@ function linierSearch (arr, target) {
         return 'input harus number'; 
     }
 
-    for (let i = 0 )
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] === target) {
+            return target;
+        }
+    }
+    return false;
 }
+
+console.log(linearSearch([8, 3, 9, 2, 5], 3));
